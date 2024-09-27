@@ -14,7 +14,7 @@ Welcome to a Hello Vanilla, a starter web app built with vanilla HTML, CSS and J
 - For each of the files you identified, create a dedicated directory in the project root.
 - Move each identified file into the appropriate directory.
 - Ensure the names of all files and directories conform to accepted naming conventions.
-- Fix any links to these files that may have broken when you moved the files. 
+- Fix any links to these files that may have broken when you moved the files.
 
 - The project should operate just as it did before you moved the files.
 
@@ -26,7 +26,6 @@ Download your github repo by selecting the Download ZIP option in github and upl
 Include the following as a comment in your Brightspace submission:
 link to GH repo
 If you get to the Medium difficulty level of the challenge, include the link to GH Pages site
-
 
 ## Attributions
 
