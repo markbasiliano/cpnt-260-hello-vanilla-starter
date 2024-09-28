@@ -10,3 +10,4 @@ function setupCounter(element) {
 }
 
 setupCounter(document.querySelector('#counter'));
+

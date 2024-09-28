@@ -6,11 +6,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Hello Vanilla App</title>
   <link rel="stylesheet" href="css/style.css">
-  <script src="js/counter.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
+
 <body>
+
   <div id="app">
     <div>
+      <nav>
+        <ul>
+            <li><a href="index.html">Home Page</a></li>
+            <li><a href="about.html">About Page</a></li>
+        </ul>
+      </nav>  
+
       <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started"
         target="_blank">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100" height="100">
@@ -40,23 +49,45 @@
         </svg>
         
       </a>
+
       <h1>My Favourite Animal is</h1>
+
         <img src="images/deadpool-cute.jpg" alt="deadpool-cute" height="200px">
       
       <b><h2>DEADPOOL</h2></b>
+
       <p>Deadpool's personality is a wild mix of irreverent humor, chaotic energy, and emotional complexity. He’s both a deeply flawed anti-hero and an oddly lovable character who thrives on breaking every rule, making fun of himself and everyone around him while leaving chaos in his wake.</p>
+        
         <img src="images/deadpool-pose.jpg" alt="deadpool-pose" height="200px">
+
       <div class="card">
         <p>count is: </p>
         <button id="counter" type="button">count is</button>
       </div>
+
       <p class="read-the-docs">
         Find the README in this project!
       </p>
+
+      <div class="wordmark html">HTML</div>
+      <div class="wordmark css">CSS</div>
+
+      <div class="toggle-container">
+        <label for="darkModeToggle">Dark Mode:</label>
+        <input type="checkbox" id="darkModeToggle">
+      </div>
+
+      <canvas id="myChart" width="100" height="50"></canvas>
     </div>
   </div>
-  <div class="wordmark html">HTML</div>
-  <div class="wordmark css">CSS</div>
+
+  <footer>
+    <p>&copy; 2024 My Website</p>
+  </footer>
+<script src="js/counter.js"></script>
+<script src="js/chart.js"></script>
+<script src="js/dark-mode.js"></script>
+
 </body>
 
 </html>
