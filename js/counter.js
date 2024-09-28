@@ -3,10 +3,10 @@ function setupCounter(element) {
   const setCounter = (count) => {
     counter = count;
     
-    element.innerHTML = ` ${counter}`;
-  }
+    element.innerHTML = `${counter}`;}
+  
   element.addEventListener('click', () => setCounter(counter + 1))
-  setCounter(0)
+  setCounter(counter)
 }
 
 setupCounter(document.querySelector('#counter'));
