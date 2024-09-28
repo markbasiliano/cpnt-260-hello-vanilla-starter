@@ -59,3 +59,30 @@ footer {
     background-color: #333;
     color: #fff;
 }
+nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 0%);
+    text-decoration: none;
+  }
+
+  body {
+    transition: background-color 0.3s, color 0.3s;
+}
+body.light {
+    background-color: white;
+    color: black;
+}
+body.dark {
+    background-color: black;
+    color: white;
+}

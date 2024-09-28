@@ -10,3 +10,16 @@ updateTime();
 
 // Update the time every second
 setInterval(updateTime, 1000);
+
+const themeSelector = document.getElementById('themeSelector');
+        const body = document.body;
+
+        themeSelector.addEventListener('change', () => {
+            if (themeSelector.value === 'dark') {
+                body.classList.remove('light');
+                body.classList.add('dark');
+            } else {
+                body.classList.remove('dark');
+                body.classList.add('light');
+            }
+        });
